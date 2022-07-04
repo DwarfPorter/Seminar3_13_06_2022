@@ -43,3 +43,6 @@ int min = -10;
 int max = 10;
 int[,] array = GenerateArray(row, column, min, max);
 PrintArray(array);
+
+string[] a = new string[2];
+System.Console.WriteLine(string.IsNullOrWhiteSpace(a[0]) ? "Hello World" : a[0]);
